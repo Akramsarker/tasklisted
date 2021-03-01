@@ -1,0 +1,143 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.collection-item{
+  border: 1px solid #ccc;
+  padding: 10px 16px 8px 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.collection{
+  max-width: 850px;
+  margin: auto;
+}
+
+/* container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+#main .card-content h1{
+  font-size:3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+ #task-title{
+  font-size: 1.5rem;
+  padding: 1.3rem;
+  text-align: center;
+}
+
+/* input */
+.input-field{
+  text-align: center;
+}
+
+#task-form input[type="text"]{
+  width: 80%;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius:15px;
+  outline: none;
+}
+#task-form input[type="text"]:hover{
+  border: 1px solid #aaa;
+}
+
+.btn-center{
+  text-align: center;
+}
+
+.btn-m{
+  margin: 2rem;;
+}
+
+/* submit btn */
+input[type="submit"]{
+padding: 10px 1.5rem;
+font-size: 20px;
+border: 1px solid #aaa;
+border-radius: 10px;
+outline: none;
+}
+
+/* show alert */
+.show-alert {
+  margin: 2rem;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 40px;
+  color: #fff;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+
+/* filter */
+#filter {
+  background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png');
+  background-size: 21px 21px;
+  background-position: 20px 15px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 16px 30px 16px 55px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 100px;
+  outline: none;
+  transition: 0.5s;
+}
+
+#filter::placeholder{
+  color: #9EA1A7;
+}
+
+#filter:hover {
+  border: 1px solid #aaa;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 16px 0 rgba(0, 0, 0, 0.20);
+}
+
+/* clear btn */
+.btn{
+  padding: 10px 1.5rem;
+  background-color: #cccccc;
+  color: #000;
+  font-size: 20px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  outline: none;
+  margin: 2rem;
+  text-decoration: none;
+  margin: 2rem;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  background-color: #bbbbbb;
+}

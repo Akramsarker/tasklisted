@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Task List</title>
+</head>
+<body>
+  <div class="container">
+    <div id="main" class="card">
+      <div class="card-content">
+       <h1>Task List</h1>
+          <form id="task-form">
+            <div class="input-field">
+              <input type="text" name="task" id="task">
+            </div>
+            <div class="btn-center">
+              <input type="submit" value="Add Task" class="btn">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="card-action">
+        <h5 id="task-title">Filter Tasks</h5>
+        <div class="input-field">
+          <input type="text" name="filter" id="filter" placeholder="Search Filter">
+        </div>
+        <h1>Tasks Add</h1>
+        <ul class="collection"></ul>
+        <div class="btn-center btn-m">
+          <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript es6 -->
+  <script src="appes6.js"></script>
+</body>
+</html>
